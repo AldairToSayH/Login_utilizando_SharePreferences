@@ -69,7 +69,22 @@ fun BienvenidaScreen() {
                 fontWeight = FontWeight.Bold
             )
 
-            Spacer(Modifier.height(32.dp))
+            Spacer(Modifier.height(24.dp))
+
+            Text(
+                text = "Equipo:",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold
+            )
+
+            Spacer(Modifier.height(8.dp))
+
+            Text(text = "Zavala Huacarpuma, Juan Aldair (100%)", fontSize = 16.sp)
+            Text(text = "Aguilar Vargas, Fabrizio Yair (100%)", fontSize = 16.sp)
+            Text(text = "Leon Quispe, Cristian Hemerson (100%)", fontSize = 16.sp)
+            Text(text = "Rocca Ramos, Rebeca Yasbet (100%)", fontSize = 16.sp)
+
+            Spacer(Modifier.height(24.dp))
 
             Button(
                 onClick = {
